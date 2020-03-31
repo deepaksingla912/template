@@ -1,0 +1,59 @@
+.card
+{
+	box-shadow: 1px 1px 5px grey;
+	padding: 10px;
+	border-radius: 10px;
+}
+.txt
+{
+	text-align: justify;
+	font-size: 18px;
+	padding: 10px;
+}
+
+.hd1
+{
+	text-align: center;
+	border-bottom: 3px solid grey;
+	margin-bottom: 30px;
+}
+.hd1 h2
+{
+	font-size: 40px;
+}
+
+.hover-m
+{
+	padding: 5px;
+	height: 200px;
+	width: 370px;
+	/*background: red;*/
+	overflow: hidden;
+}
+.hover-m .hover
+{
+	height: 200px;
+	width: 360px;
+	background: rgb(1,1,1,.7);
+	position: absolute;	
+	/*top: 0px;*/
+	transition: 1s;
+}
+.hover-p
+{
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	position: absolute;top: 70px;
+	left: 140px;
+}
+.hover-m:hover .hover
+{
+	margin-top: -200px;
+}
+
+
+
+
+
+
